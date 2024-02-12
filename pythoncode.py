@@ -6,7 +6,7 @@ class DigitalClockHoursMinutes:
         self.root = root
         self.root.title("Digital Clock (Hours and Minutes)")
         self.root.geometry("300x100")
-        self.root.configure(background="green")
+        self.root.configure(background="blue")
 
         self.time_label = tk.Label(self.root, font=("Helvetica", 24), bg="white")
         self.time_label.pack(pady=20)
